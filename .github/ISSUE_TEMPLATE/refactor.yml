@@ -1,6 +1,5 @@
 ---
 name: Refactor Template
-about: 리팩토링 관련
 title: '[Refactor]'
 labels: ['🔨 Refactor']
 assignees: []
@@ -10,7 +9,7 @@ body:
       value: |
         ## #️⃣ 작업 내용
   - type: textarea
-    id: 작업내용
+    id: work_description
     attributes:
       label: 작업 내용
       description: 수행해야 할 작업 내용을 간략하게 설명해주세요.
@@ -22,7 +21,7 @@ body:
       value: |
         ## #️⃣ 작업이 필요한 이유
   - type: textarea
-    id: 작업이유
+    id: work_reason
     attributes:
       label: 작업이 필요한 이유
       description: 왜 이 작업이 필요한지 설명해주세요. 유지 보수 작업의 목적과 기대 효과를 기술해주세요.
@@ -34,7 +33,7 @@ body:
       value: |
         ## #️⃣ 작업 상세 내용
   - type: checkboxes
-    id: 작업상세
+    id: task_details
     attributes:
       label: 작업 상세 내용
       options:
@@ -46,7 +45,7 @@ body:
       value: |
         ## 📎 참고 자료 (선택)
   - type: textarea
-    id: 참고자료
+    id: references
     attributes:
       label: 참고 자료
       description: 관련 문서, 스크린샷, 또는 예시 등이 있다면 여기에 첨부해주세요

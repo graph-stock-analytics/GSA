@@ -1,6 +1,5 @@
 ---
 name: Feature Template
-about: 기능 구현
 title: '[Feature] '
 labels: ['✨ Feature']
 assignees: []
@@ -10,7 +9,7 @@ body:
       value: |
         ## #️⃣ 요청 유형
   - type: checkboxes
-    id: 요청유형
+    id: request_type
     attributes:
       label: 요청 유형
       description: 해당되는 항목을 선택해주세요.
@@ -25,7 +24,7 @@ body:
       value: |
         ## #️⃣ 어떤 기능인가요?
   - type: textarea
-    id: 기능설명
+    id: feature_description
     attributes:
       label: 기능 설명
       description: 추가하려는 기능 또는 개선하려는 부분에 대해 간결하게 설명해주세요.
@@ -37,7 +36,7 @@ body:
       value: |
         ## #️⃣ 이 기능이 필요한 이유는 무엇인가요?
   - type: textarea
-    id: 필요이유
+    id: feature_reason
     attributes:
       label: 필요 이유
       description: 이 기능이 왜 필요한지, 또는 개선/성능 향상이 필요한 이유에 대해 설명해주세요.
@@ -49,7 +48,7 @@ body:
       value: |
         ## 구현 방안 (선택)
   - type: textarea
-    id: 구현방안
+    id: implementation_plan
     attributes:
       label: 구현 방안
       description: 이 기능을 어떻게 구현할 수 있을지에 대한 아이디어를 간단히 설명해주세요.
@@ -61,7 +60,7 @@ body:
       value: |
         ## #️⃣ 작업 상세 내용
   - type: checkboxes
-    id: 작업상세
+    id: task_details
     attributes:
       label: 작업 상세 내용
       options:
@@ -73,7 +72,7 @@ body:
       value: |
         ## 📎 참고할만한 자료 (선택)
   - type: textarea
-    id: 참고자료
+    id: references
     attributes:
       label: 참고 자료
       description: 관련 문서, 스크린샷, 또는 예시 등이 있다면 여기에 첨부해주세요
