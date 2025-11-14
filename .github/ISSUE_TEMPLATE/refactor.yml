@@ -36,6 +36,7 @@ body:
     id: task_details
     attributes:
       label: 작업 상세 내용
+      description: 작업할 항목들을 체크해주세요.
       options:
         - label: TODO
         - label: TODO
