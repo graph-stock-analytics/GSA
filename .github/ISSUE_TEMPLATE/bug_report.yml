@@ -1,58 +1,27 @@
 ---
 name: Bug report
+about: 디버깅 관련
 title: '[BUG] '
-labels: ['🚨 bug']
-assignees: []
-body:
-  - type: markdown
-    attributes:
-      value: |
-        ## #️⃣ 어떤 버그인가요?
-  - type: textarea
-    id: bug_description
-    attributes:
-      label: 버그 설명
-      description: Given-When-Then 형식으로 서술해주세요.
-      placeholder: |
-        Given: 상황
-        When: 행동
-        Then: 결과
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## #️⃣ 예상 결과
-  - type: textarea
-    id: expected_result
-    attributes:
-      label: 예상 결과
-      description: 예상했던 정상적인 결과가 어떤 것이었는지 설명해주세요.
-      placeholder: 예상 결과를 입력해주세요.
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## #️⃣ 실제 결과
-  - type: textarea
-    id: actual_result
-    attributes:
-      label: 실제 결과
-      description: 실제로 어떤 결과가 발생했는지 설명해주세요.
-      placeholder: 실제 결과를 입력해주세요.
-    validations:
-      required: true
-  - type: markdown
-    attributes:
-      value: |
-        ## 📎 참고할만한 자료(선택)
-  - type: textarea
-    id: references
-    attributes:
-      label: 참고 자료
-      description: 관련 문서, 스크린샷, 또는 예시 등이 있다면 여기에 첨부해주세요
-      placeholder: 참고 자료를 입력해주세요.
-    validations:
-      required: false
+labels: '🚨 bug'
+assignees: ''
 ---
+
+## 📕 Description
+버그 내용을 설명해주세요. (가능하면 Given-When-Then 형식으로 서술해주세요.)
+
+## 📕 Steps to Reproduce
+버그를 재현하기 위한 단계를 설명해주세요.
+
+## 📕 Actual Behavior
+실제로 어떤 결과가 발생했는지 설명해주세요.
+
+## 📕 Expected Behavior
+예상했던 정상적인 결과가 어떤 것이었는지 설명해주세요.
+
+
+## ✅ Tasks
+- [ ] TODO
+- [ ] TODO
+
+## 🧩 References
+관련 문서, 스크린샷, 또는 예시 등이 있다면 여기에 첨부해주세요
